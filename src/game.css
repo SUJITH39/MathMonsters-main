@@ -1,0 +1,117 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url("images/forest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -999;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.monster-image {
+    position: absolute;
+    left: 0;
+}
+
+.monster-image1 {
+    position: absolute;
+    bottom: 300px;
+}
+
+.monster-image2 {
+    position: absolute;
+    bottom: 150px;
+}
+
+.monster-image3 {
+    position: absolute;
+    bottom: 10px;
+}
+
+.problem-text {
+    background-color: #787474;
+    color: white;
+    align-self: center;
+    position: absolute;
+    top: 7.5%;
+    font-family: Pingsan, sans-serif;
+    font-size: 48px;
+    padding: 5px 30px;
+}
+
+.answer-input {
+    position: absolute;
+    top: 20%;
+    align-self: center;
+    background-color: #787474;
+    border: none;
+    border-radius: 10px;
+    width: 115px;
+    height: 100px;
+    font-size: 48px;
+    font-family: Pingsan, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.answer-input:focus {
+    outline: none;
+}
+
+/* Remove arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.result-dialog {
+    background-color: #787474;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 35%;
+    border-radius: 15px;
+    outline: none;
+}
+
+.heading {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 0 2%;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-family: Pingsan, sans-serif;
+}
+
+.option-button {
+    border-radius: 10px;
+    background-color: #CED0FD;
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 55%;
+    color: white;
+    font-size: 36px;
+    margin: 10% 0 0 0;
+    letter-spacing: 5px;
+    font-family: Pingsan, sans-serif;
+}
+
+.option-button:hover {
+    background-color: #9A9DD8;
+}

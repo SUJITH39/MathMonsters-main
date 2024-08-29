@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Pingsan;
+    src: url(fonts/pingsan.ttf);
+}
+
+button:hover {
+    cursor: pointer;
+}
